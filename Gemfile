@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'dotenv-rails', :groups => [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use Puma as the app server
@@ -25,6 +26,8 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
+# Stripe API
+gem 'stripe'
 
 
 group :development, :test do
