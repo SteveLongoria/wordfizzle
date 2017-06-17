@@ -17,6 +17,23 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
  
+ body {
+ 	background: #f2994a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2994a, #f2c94c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2994a, #f2c94c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+ 
  h1, h2, h3, p {
  	font-family: 'Spectral', serif;
 	}
+	
+.callout {
+	color:white;
+	h1 {
+	font-size:85px;
+	}
+	h3 {
+	font-size:60px;
+	}
+}
+
