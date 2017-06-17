@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   resources :charges, only: [:new, :create]
   get 'privacy', to: 'pages#privacy'
+  get 'thanks', to: 'charges#thanks', as: 'thanks'
 end
