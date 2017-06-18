@@ -33,10 +33,26 @@
 .navbar {
   border: none;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #f2994a;
+  }
+}
+
+.navbar-brand {
+	font-family: 'Spectral', serif;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
-	font-family: 'Spectral', serif;
   &:hover {
     color: white;
     opacity: 0.75;
