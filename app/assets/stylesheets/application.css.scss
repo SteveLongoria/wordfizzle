@@ -16,6 +16,8 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
  
 .navbar, .callout {
  	background: #f2994a; /* fallback for old browsers */
@@ -23,13 +25,25 @@
   background: linear-gradient(to right, #f2994a, #f2c94c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
  
- .navbar {
- 	border: none;
- }
-  
  h1, h2, h3, p {
  	font-family: 'Spectral', serif;
 	}
+ 
+ // Nav Styles
+.navbar {
+  border: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+	font-family: 'Spectral', serif;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
+}
+
+// Homepage Styles
 	
 .callout {
 	color:white;
