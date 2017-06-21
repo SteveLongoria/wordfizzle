@@ -1,0 +1,4 @@
+Requirements
+
+Free offer that adds subscribers to Mailchimp list
+Create checkout with custom stripe checkout form.
