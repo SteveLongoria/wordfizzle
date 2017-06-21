@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'privacy', to: 'pages#privacy'
   get 'thanks', to: 'charges#thanks', as: 'thanks'
   resources :contacts
+  get 'contact-us', to: 'contacts#new'
 end
