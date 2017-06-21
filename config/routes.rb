@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   resources :charges, only: [:new, :create]
   get 'privacy', to: 'pages#privacy'
   get 'thanks', to: 'charges#thanks', as: 'thanks'
-  resources :contacts
-  get 'contact-us', to: 'contacts#new'
+  resources :contacts, only: :create
+	get 'contact-us', to: 'contacts#new', as: 'new_contact'
 end
