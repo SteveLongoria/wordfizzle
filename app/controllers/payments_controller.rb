@@ -2,7 +2,6 @@ class PaymentsController < ApplicationController
   before_action :amount_to_be_charged
   before_action :set_description
   before_action :set_plan
-  before_action :authenticate_user!
 
   def new
   end
