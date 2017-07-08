@@ -18,6 +18,31 @@
 @import 'bootstrap';
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h3 {font-size:20px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h3 {font-size:30px;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h3 {font-size:40px;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h3 {font-size:60px;} /*1rem = 16px*/    
+}
+
+body {
+	font-size: 100%
+	}
  
 .navbar, .callout {
  	background: #f2994a; /* fallback for old browsers */
@@ -52,13 +77,20 @@
   }
 }
 
-.navbar-brand {
+.navbar-default .navbar-brand, {
 	font-family: 'Spectral', serif;
   font-weight: 800;
+  font-size: 20px;
+  color: white;
+  &:hover {
+  	color: white;
+  	opacity: 0.75;
+  	}
 }
 
-.navbar-default .navbar-brand,
+
 .navbar-default .navbar-nav > li > a {
+	font-size: 15px;
   color: white;
   &:hover {
     color: white;
@@ -79,7 +111,6 @@
 	font-size:85px;
 	}
 	h3 {
-	font-size:50px;
 	}
 }
 
