@@ -20,26 +20,6 @@
 @import "font-awesome";
 
 
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
-  h3 {font-size:20px;} /*1rem = 16px*/
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-  h3 {font-size:30px;} /*1rem = 16px*/
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  h3 {font-size:40px;} /*1rem = 16px*/
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-  h3 {font-size:60px;} /*1rem = 16px*/    
-}
-
 body {
 	font-size: 100%
 	}
@@ -92,6 +72,7 @@ body {
 .navbar-default .navbar-nav > li > a {
 	font-size: 15px;
   color: white;
+  margin-top: -10px;
   &:hover {
     color: white;
     opacity: 0.75;
@@ -131,5 +112,41 @@ body {
 .img-responsive {
     margin: auto;
 }
+
+
+/* XSmall devices (landscape phones, 344px and up) */
+	@media (min-width: 344px) {  
+		h3 {font-size:30px;} /*1rem = 16px*/
+		h2 {font-size: 20px;}
+		.h2 {font-size: 20px;}
+	}
+/* Small devices (landscape phones, 544px and up) */
+	@media (min-width: 544px) {  
+		h3 {font-size:30px;} /*1rem = 16px*/
+		h2 {font-size: 25px;}
+		.h2 {font-size: 25px;}
+	}
+
+	/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+	@media (min-width: 768px) {  
+		h3 {font-size:35px;} /*1rem = 16px*/
+		h2 {font-size:23px;}
+		.h2 {font-size: 25px;}
+	}
+
+	/* Large devices (desktops, 992px and up) */
+	@media (min-width: 992px) { 
+		h3 {font-size:45px;} /*1rem = 16px*/
+		h2 {font-size:30px;}
+		.h2 {font-size: 25px;}
+	}
+
+	/* Extra large devices (large desktops, 1200px and up) */
+	@media (min-width: 1200px) {  
+		h3 {font-size:60px;} /*1rem = 16px*/  
+		h2 {font-size:30px;}
+		.h2 {font-size: 25px;}
+	}
+
 
 
