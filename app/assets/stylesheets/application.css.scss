@@ -28,6 +28,12 @@
  h1, h2, h3, p {
  	font-family: 'Spectral', serif;
 	}
+	
+	p {
+		font-size: 20px;
+	}
+	
+	
  
  // Nav Styles
 .navbar {
@@ -65,26 +71,33 @@
 	color:white;
 	margin-top: -20px;
 	padding-top: 50px;
+	padding-right: 60px;
+	padding-left: 60px;
 	padding-bottom: 100px;
 	h1 {
 	font-size:85px;
 	}
 	h3 {
-	font-size:60px;
+	font-size:50px;
 	}
 }
 
 .btn-primary-outline {
 	height: 48px;
-	padding-top: 11px;
+	padding-top: 8px;
   background-color: #f2c94c;
   border-color: #f2c94c;
   margin-bottom: 30px;
+  font-size: 20px;
   &:hover, &:focus, &:active:focus {
     background-color: #f2c94c;
     color: white;
     border-color: #f2c94c;
     }
+}
+
+.img-responsive {
+    margin: auto;
 }
 
 
