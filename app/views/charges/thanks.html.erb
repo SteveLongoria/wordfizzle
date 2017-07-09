@@ -1,1 +1,7 @@
-<h2>Thanks, you paid <strong><%= pretty_amount(@amount) %></strong>!</h2>
+<h3 class="text-center">Thanks for ordering Wordfizzle</h3>
+
+
+<h2 style="margin-top:100px;" class="text-center">Download Wordfizzle</h2>
+<%= link_to "https://www.dropbox.com/s/hn7m21dhqzgplyb/WordFizzle.pdf?dl=0", target: "_blank" do %>
+<%= image_tag("pdfdload.jpg", :alt => "PDF Download", :class => "img-responsive roast-img") %>
+<% end %>
