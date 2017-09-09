@@ -4,4 +4,7 @@ class PagesController < ApplicationController
     
     def privacy
     end
+    
+    def ty-cust928382
+    end
 end
