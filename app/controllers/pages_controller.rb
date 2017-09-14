@@ -7,4 +7,7 @@ class PagesController < ApplicationController
     
     def tycust928382
     end
+    
+    def steemit
+    end
 end

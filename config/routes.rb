@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: 'pages#home'
   get 'tycust928382', to: 'pages#tycust928382'
+  get 'steemit', to: 'pages#steemit'
   resources :charges, only: :create
   get 'privacy', to: 'pages#privacy'
   get 'ty-928382', to: 'charges#thanks', as: 'thanks'
