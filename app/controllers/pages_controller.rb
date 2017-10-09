@@ -10,4 +10,7 @@ class PagesController < ApplicationController
     
     def steemit
     end
+    
+    def steemitguide
+    end
 end

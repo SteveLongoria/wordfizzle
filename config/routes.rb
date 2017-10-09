@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get 'tycust928382', to: 'pages#tycust928382'
   get 'steemit', to: 'pages#steemit'
+  get 'steemitguide', to: 'pages#steemitguide'
   resources :charges, only: :create
   get 'privacy', to: 'pages#privacy'
   get 'ty-928382', to: 'charges#thanks', as: 'thanks'
