@@ -13,4 +13,8 @@ class PagesController < ApplicationController
     
     def steemitguide
     end
+    
+    def ethereumico
+    end
+    
 end
