@@ -17,4 +17,7 @@ class PagesController < ApplicationController
     def ethereumico
     end
     
+    def ethco
+    end
+    
 end

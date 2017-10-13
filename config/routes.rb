@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'steemit', to: 'pages#steemit'
   get 'steemitguide', to: 'pages#steemitguide'
   get 'ethereumico', to: 'pages#ethereumico'
+  get 'ethco', to: 'pages#ethco'
   resources :charges, only: :create
   get 'privacy', to: 'pages#privacy'
   get 'ty-928382', to: 'charges#thanks', as: 'thanks'
