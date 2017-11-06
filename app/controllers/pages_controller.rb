@@ -20,4 +20,10 @@ class PagesController < ApplicationController
     def ethco
     end
     
+    def sfunnelguide
+    end
+    
+    def sfunnelwl
+    end
+    
 end
